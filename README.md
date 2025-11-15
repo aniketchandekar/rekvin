@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Rekvin: Design Research Copilot
 
-# Run and deploy your AI Studio app
+A React-based application that helps users turn raw research into actionable insights and polished designs.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1yLcp3ZuhuQPfm5saxdNf9EvquYc-BlxW
+- **Project Management**: Create and manage design research projects with different types (B2B/B2C) and platforms (Mobile/Desktop)
+- **Resource Management**: Upload files and add links for research materials with AI-powered analysis and categorization
+- **Workflow Builder**: Visual workflow editor using React Flow for creating research and design processes
+- **AI Integration**: Comprehensive Google Gemini AI integration for content analysis, workflow processing, design generation, and intelligent workflow suggestions
+- **Secure Authentication**: JWT-based user authentication with persistent sessions
+- **Hybrid Data Storage**: Seamless switching between backend API and localStorage with automatic offline fallback
 
-## Run Locally
+## Technology Stack
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend**: React 19.1.0 with TypeScript
+- **Build Tool**: Vite 6.2.0
+- **Workflow Editor**: React Flow 11.11.4
+- **AI Integration**: Google Gemini AI
